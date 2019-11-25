@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* 三列自适应布局 */
+        .main{
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-wrap: wrap;
+            height:500px;
+            overflow-y: auto;
+            /* display: -webkit-flex; */
+            /* justify-content: space-between;  */
+            padding:20px;
+        }
+        .main>div{
+            /* flex:1; */
+            width:200px;
+            border:10px solid #ccc;
+            margin:10px;
+        }
+        .left{
+            height:200px;
+            background:red;
+        }
+        .center{
+            height:200px;
+            background:black;
+        }
+        .right{
+            height:200px;
+            background:oldlace;
+        }
+        /* float元素居中 */
+        .floatDivP{
+            display: flex;
+            justify-content: center;
+        }
+        .floatDiv{
+            /* width:200px; */
+            /* margin-left:calc(50% - 100px); */
+            height:50px;
+            background:olivedrab;
+            
+            /* width:50%;
+            margin-left:calc(50% - 25%); */
+            width:50%;
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class='left'></div>
+        <div class="center"></div>
+        <div class="right"></div>
+        <div class='left'></div>
+        <div class="center"></div>
+        <div class="right"></div>
+        <div class='left'></div>
+        <div class="center"></div>
+        <div class="right"></div>
+        <div class='left'></div>
+        <div class="center"></div>
+        <div class="right"></div>
+        <div class='left'></div>
+        <div class="center"></div>
+        <div class="right"></div>
+        <div class='left'></div>
+        <div class="center"></div>
+        <div class="right"></div>
+        <div class='left'></div>
+        <div class="center"></div>
+        <div class="right"></div>
+        <div class='left'></div>
+        <div class="center"></div>
+        <div class="right"></div>
+        <div class='left'></div>
+        <div class="center"></div>
+        <div class="right"></div>
+        <div class='left'></div>
+        <div class="center"></div>
+        <div class="right"></div>
+        
+    </div>
+    <div class="floatDivP">
+        <div class="floatDiv"></div>
+    </div>
+</body>
+</html>
